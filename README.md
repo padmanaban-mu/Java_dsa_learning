@@ -5,7 +5,7 @@ My Java learning journey and Data Structures &amp; Algorithms practice using Int
 
 ## Progress
 
-- [ ] Java Basics
+- [x] Java Basics
 - [ ] Arrays
 - [ ] Strings
 - [ ] Two Pointers
