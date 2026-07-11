@@ -6,7 +6,7 @@ My Java learning journey and Data Structures &amp; Algorithms practice using Int
 ## Progress
 
 - [ ] Java Basics
-- [x] Arrays
+- [ ] Arrays
 - [ ] Strings
 - [ ] Two Pointers
 - [ ] Sliding Window
