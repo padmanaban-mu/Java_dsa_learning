@@ -1,58 +1,53 @@
 # Java Learning & DSA Practice
 
-A collection of Java exercises maintained while learning programming fundamentals and building a foundation for data structures and algorithms. The code is organised by topic and developed using IntelliJ IDEA.
+This repository contains the Java programs I write while learning the language and getting comfortable with problem-solving. I use IntelliJ IDEA for most of this practice.
 
-## Current contents
+## What is here now
 
-The `Java/src/Basics` directory currently includes practice with:
+The current exercises are mainly under `Java/src/Basics`:
 
-- First Java programs, variables, and data types
-- Automatic type conversion
-- Conditional statements, switch cases, and loops
-- Basic numerical problems such as odd/even checks, simple interest, and currency conversion
-- Area, perimeter, and volume calculations
-- Functions, factorial, prime checks, palindrome checks, and HCF
-- One-dimensional and two-dimensional arrays, ArrayList, and strings
+- Basic programs, variables, and data types
+- Type conversion
+- Conditions, switch statements, and loops
+- Functions and simple number problems
+- One-dimensional and two-dimensional arrays
+- ArrayList and strings
 - Pattern-printing exercises
 
-## Repository structure
+## Folder layout
 
 ```text
 Java_dsa_learning/
-├── Java/
-│   └── src/
-│       └── Basics/
-│           ├── _1_Basic_program/
-│           ├── _2_Conditional_loops/
-│           ├── _3_functions/
-│           ├── _4_Arrays/
-│           ├── _5_Strings/
-│           └── _6_Patterns/
-└── README.md
+└── Java/
+    └── src/
+        └── Basics/
+            ├── _1_Basic_program/
+            ├── _2_Conditional_loops/
+            ├── _3_functions/
+            ├── _4_Arrays/
+            ├── _5_Strings/
+            └── _6_Patterns/
 ```
 
-## Run a Java exercise
+## Run a program
 
 1. Install a JDK.
-2. Clone the repository and open it in IntelliJ IDEA (or another Java IDE).
-3. Open the required `.java` file.
-4. Run the class containing the `main` method.
+2. Clone the repository and open the `Java` folder in IntelliJ IDEA, or use another Java IDE.
+3. Open a class that contains a `main` method and run it.
 
-You can also compile and run a simple class from a terminal:
+For a simple class without a package declaration, the terminal workflow looks like this:
 
 ```bash
-javac Java/src/Basics/FirstProgram.java
-java -cp Java/src/Basics FirstProgram
+javac FileName.java
+java FileName
 ```
 
-The exact command depends on the class, package declaration, and source-file location.
+Run the commands from the directory containing the source file. The exact command can differ if the class uses a package declaration.
 
-## Learning roadmap
-
-The checklist below is a roadmap, not a claim that every topic has already been completed.
+## Topics I plan to work through
 
 - [x] Java basics
-- [ ] Arrays and strings — deeper problem solving
+- [ ] Arrays and strings — more problem-solving practice
 - [ ] Two pointers and sliding window
 - [ ] Binary search
 - [ ] Linked lists
@@ -61,10 +56,6 @@ The checklist below is a roadmap, not a claim that every topic has already been 
 - [ ] Recursion and backtracking
 - [ ] Dynamic programming
 
-## Goal
+The checklist is a learning plan, not a claim that these topics are already completed.
 
-Build reliable Java fundamentals first, then apply them to data structures, algorithms, and timed problem-solving.
-
-## Repository
-
-[github.com/padmanaban-mu/Java_dsa_learning](https://github.com/padmanaban-mu/Java_dsa_learning)
+[Repository](https://github.com/padmanaban-mu/Java_dsa_learning)
